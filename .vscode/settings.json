@@ -1,0 +1,8 @@
+{
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#666",
+    "editor.lineHighlightBackground": "#333",
+    "editorSuggestWidget.selectedBackground": "#55c",
+    "tab.activeBackground": "#000000"
+  }
+}
