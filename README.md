@@ -31,4 +31,14 @@
       frameColor: string
       user: string
     }`
-8. GET /order?user=THEUSER for third task
+
+    `curl --location 'http://localhost:3000/order' \
+--header 'Content-Type: application/json' \
+--data '{ "email": "XXXX",
+  "fullName": "XXXX",
+  "address": "XXXX",
+  "imageUrls": [],
+  "frameColor": "",
+  "user": "XXXX"
+}'`
+8. GET /order?user=THEUSER for third task `curl --location 'http://localhost:3000/order?user=XXXXX'`
